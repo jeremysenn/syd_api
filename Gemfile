@@ -39,6 +39,9 @@ gem "figaro"
 gem 'tiny_tds' 
 gem 'activerecord-sqlserver-adapter' #, :github => 'rails-sqlserver/activerecord-sqlserver-adapter', :branch => 'master'
 
+# Javascript runtime
+gem 'therubyracer', platforms: :ruby
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
